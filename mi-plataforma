@@ -1,0 +1,18 @@
+/mi-plataforma/
+│
+├── index.html          (Home)
+├── registro.html       (Página de Registro)
+├── login.html          (Página de Login)
+├── admin-dashboard.html (Dashboard solo para Admin)
+├── usuario-dashboard.html (Dashboard solo para Usuario Cliente)
+│
+├── css/
+│   └── estilos.css     (Estilos generales)
+│
+├── js/
+│   ├── registro.js     (Lógica del registro de usuarios)
+│   ├── login.js        (Lógica del login)
+│   ├── auth.js         (Control de acceso según rol)
+│
+└── assets/
+    └── imágenes, iconos, etc. 

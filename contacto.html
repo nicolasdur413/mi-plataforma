@@ -1,0 +1,61 @@
+<!-- contacto.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto - Plataforma Compras</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header>
+  <h1>Plataforma de Compras</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="registro.html">Registro</a>
+    <a href="login.html">Login</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="opiniones.html">Opiniones</a>
+
+  </nav>
+</header>
+
+<main>
+  <h2>Contacto</h2>
+  <p>Si tiene una sugerencia, por favor completa el siguiente formulario o pongase en contacto con nosotros:</p>
+ 
+  <h3>Datos de la Compañía</h3>
+  <p><strong>Dirección:</strong> Calle 100 #49-60 piso 2, Bogota, Colombia</p>
+  <p><strong>Teléfono:</strong> +57 301 222111555</p>
+  <p><strong>Email:</strong> contacto@plataformacompras.com</p>
+ 
+  <h3>Formulario de Contacto</h3>
+  <form id="contactForm" method="POST">
+    <div>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" placeholder="Tu nombre" required>
+    </div>
+   
+    <div>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+    </div>
+   
+    <div>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Escribe tu mensaje" required></textarea>
+    </div>
+   
+    <button type="submit">Enviar</button>
+  </form>
+</main>
+
+<footer>
+    &copy; 2025 Plataforma de Compras. Creditos : Nicolas Duran - Politecnico .
+  </footer>  
+
+<script src="js/contacto.js"></script>
+
+</body>
+</html> 

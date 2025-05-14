@@ -1,0 +1,36 @@
+<!-- admin-dashboard.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard Admin</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="js/auth.js" defer></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      verificarAcceso('admin');
+    });
+  </script>
+</head>
+<body>
+
+<header>
+  <h1>Panel de Administrador</h1>
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="login.html">Cerrar Sesión</a>
+  </nav>
+</header>
+
+<main>
+  <h2>Bienvenido, Administrador</h2>
+  <p>Aquí puedes gestionar usuarios y contenido.</p>
+</main>
+
+<footer>
+  &copy; 2025 Plataforma de Compras. Creditos : Nicolas Duran - Politecnico .
+</footer>
+
+</body>
+</html> 
